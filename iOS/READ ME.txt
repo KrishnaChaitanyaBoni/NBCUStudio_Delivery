@@ -1,0 +1,6 @@
+For installing the iOS executable application file, 
+1. Host the '.ipa' file along with '.plist' provided,  into a server
+2. Before hosting the files, you need to make few changes in the '.plist' file.
+3. Replace the following url "http://yourServerIPHere/hostedPath/NBCUStudioApp.ipa" with the respective server address and the folder path where the '.ipa' file is being hosted. (For example "http://2.1.1.110/applications/NBCUStudioApp.ipa" would be the pattern of the url where (2.1.1.110 is the server ip, and 'applications' is the folder in which the '.ipa' has been hosted.)
+4. Create an 'index.html' file and host it into the same folder level as of the '.ipa' file, in which the full path to '.plist' file have to be included. 
+5. Start the server, and access the url through the iOS device's browser to install the application.

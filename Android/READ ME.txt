@@ -1,0 +1,4 @@
+Installing the apk file in Android device:
+1. Download(Or Move) the .apk file into the desired Android device.
+2. Click the '.apk' file, which then prompts you to install it into your device.
+3. Accept and install the application.
