@@ -1,6 +1,21 @@
-For installing the iOS executable application file, 
-1. Host the '.ipa' file along with '.plist' provided,  into a server
-2. Before hosting the files, you need to make few changes in the '.plist' file.
-3. Replace the following url "http://yourServerIPHere/hostedPath/NBCUStudioApp.ipa" with the respective server address and the folder path where the '.ipa' file is being hosted. (For example "http://2.1.1.110/applications/NBCUStudioApp.ipa" would be the pattern of the url where (2.1.1.110 is the server ip, and 'applications' is the folder in which the '.ipa' has been hosted.)
-4. Create an 'index.html' file and host it into the same folder level as of the '.ipa' file, in which the full path to '.plist' file have to be included. 
-5. Start the server, and access the url through the iOS device's browser to install the application.
+An application can be installed on an iOS device in any of the below two ways.
+
+Steps to install '.ipa' file:
+1. Download the file from github
+2. Extract the compressed file which contains '.ipa' and '.plist' files
+3. Host the '.ipa' file along with '.plist',  into a server
+4. Before hosting the files, you need to make few changes in the '.plist' file.
+5. Replace the following url "http://yourServerIPHere/hostedPath/NBCUStudioApp.ipa" with the respective server address and the folder path where the '.ipa' file is being hosted. (For example "http://2.1.1.110/applications/NBCUStudioApp.ipa" would be the pattern of the url where (2.1.1.110 is the server ip, and 'applications' is the folder in which the '.ipa' has been hosted.)
+6. Create an 'index.html' file and host it into the same folder level as of the '.ipa' file, in which the full path to '.plist' file have to be provided as a link. 
+7. Start the server, and access the url through the iOS device's browser to install the application.
+
+
+Steps to install '.app' file
+1. Extract the zip file. It will create a folder called <appname>.app
+2. Connect device to iTunes
+3. Go to File Menu, Click on “Add to Library”
+4. Choose <appname>.app folder
+5. Select your device and clicks on “Apps” tab
+6. Check “Sync” check box and select “<app name>” application checkbox.
+7. Click on Apply. Application will be installed in the device J
+ 
