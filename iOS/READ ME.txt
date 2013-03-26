@@ -16,7 +16,8 @@ Process 2:
 4. Before hosting the files, you need to make few changes in the '.plist' file.
 5. Replace the following url "http://yourServerIPHere/hostedPath/NBCUStudioApp.ipa" with the respective server address and the folder path where the '.ipa' file is being hosted. (For example "http://2.1.1.110/applications/NBCUStudioApp.ipa" would be the pattern of the url where (2.1.1.110 is the server ip, and 'applications' is the folder in which the '.ipa' has been hosted.)
 6. Host the 'index.html' file in the same folder level as of the '.ipa' file, in which the full path to '.plist' file have to be provided. 
-7. Start the server, and access the url through the iOS device's browser to install the application.
+7. Edit the url present in the html to point to the '.plist' file in the server
+8. Start the server, and access the folder in which index.html is hosted, from your iOS device. Click on the "Click to install" button to start your installation .
 
 Steps to install '.app' file
 1. Extract the zip file. It will create a folder called <appname>.app
