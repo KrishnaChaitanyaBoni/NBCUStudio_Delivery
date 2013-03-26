@@ -13,9 +13,9 @@ Steps to install '.ipa' file:
 Steps to install '.app' file
 1. Extract the zip file. It will create a folder called <appname>.app
 2. Connect device to iTunes
-3. Go to File Menu, Click on “Add to Library”
+3. Go to File Menu, Click on ï¿½Add to Libraryï¿½
 4. Choose <appname>.app folder
-5. Select your device and clicks on “Apps” tab
-6. Check “Sync” check box and select “<app name>” application checkbox.
-7. Click on Apply. Application will be installed in the device J
+5. Select your device and clicks on ï¿½Appsï¿½ tab
+6. Check ï¿½Syncï¿½ check box and select ï¿½<app name>ï¿½ application checkbox.
+7. Click on Apply. Application will be installed in the device
  
