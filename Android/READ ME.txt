@@ -1,4 +1,5 @@
 Installing the apk file in Android device:
+Before Installing the app, make sure that you enable installation of non-Market applications(Go to device Settings--> Applications --> Check the 'Unknown Sources' checkbox) 
 1. Download(Or Move) the .apk file into the desired Android device.
 2. Click the '.apk' file, which then prompts you to install it into your device.
 3. Accept and install the application.
